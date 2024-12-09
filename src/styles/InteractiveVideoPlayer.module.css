@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+  }
+  
+  .offerDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .offerDetails img {
+    max-width: 150px;
+    margin-top: 10px;
+  }
+  
+  .offerDetails button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff8c00;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .offerDetails button:hover {
+    background-color: #e07a00;
+  }
+  

@@ -1,3 +1,49 @@
+Interactive Video Player with Product Offers----------
+This project implements an interactive video player where users can watch a video and view product offers that appear at specific timestamps. The video player is built using React and ReactPlayer. When a product offer appears, users can add the product to their cart by clicking the "Add to Cart" button. This is integrated with Redux for managing the shopping cart state.
+
+Features-------------
+Video Playback: The project uses the ReactPlayer component to play the video.
+Product Offers: Product offers appear as overlays on the video at predefined timestamps.
+Add to Cart: Users can add products to their shopping cart directly from the video overlay.
+Redux Integration: The cart state is managed using Redux for seamless updates and persistent data.
+Installation Instructions
+Prerequisites
+
+Ensure you have the following installed:
+Node.js (version >= 14)
+npm 
+Steps to Run the Project
+Clone the repository to your local machine:
+
+bash
+Copy code
+git clone 
+
+Install the dependencies:
+bash
+Copy code
+npm install
+
+Run the project locally:
+npm run dev
+This will start the development server and you can view the project by navigating to http://localhost:3000 in your browser.
+
+How to Use
+Watch the Video: Start playing the video, and at specific timestamps, product offers will appear as overlays.
+View Product Details: The product offer overlay will display a title, image, and a button to add the product to your cart.
+Add to Cart: Click the "Add to Cart" button to add the product to your shopping cart.
+Shopping Cart: You can manage the shopping cart state by accessing the Redux store (if integrated in your application).
+Technologies Used
+React: For building the user interface.
+ReactPlayer: For embedding and controlling the video playback.
+Redux: For managing the state of the shopping cart.
+TypeScript: For type safety and enhancing development experience.
+CSS Modules: For scoped and maintainable styling.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
